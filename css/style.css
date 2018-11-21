@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat|Roboto+Slab");
+#head {
+  background-image: url("../img/hbg.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+hgroup h2 {
+  text-transform: uppercase;
+  font-family: "Roboto Slab";
+  font-size: 40px;
+}
+hgroup h3 {
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: lighter;
+  margin-bottom: 72px;
+}
+
+#mainnav {
+  padding-top: 32px;
+  background: none;
+  border: none;
+}
+#mainnav button {
+  font-size: 24px;
+  color: white;
+  border: none;
+  box-shadow: none;
+  background: none;
+  transition: 0.2s;
+}
+#mainnav button:hover {
+  color: #fed136;
+  background: none;
+  box-shadow: none;
+}
+#mainnav a {
+  font-family: "Kaushan Script";
+  font-size: 32px;
+  color: #fed136;
+}
+#mainnav a:hover {
+  color: #cd9f01;
+}
+#mainnav li a {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Montserrat";
+  font-weight: lighter;
+  font-size: 16px;
+  color: white;
+}
+#mainnav li a:hover {
+  color: #fed136;
+}
+
+#sec1 {
+  padding-top: 304px;
+  padding-bottom: 200px;
+}
+#sec1 h2 {
+  color: white;
+  font-size: 40px;
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+#sec1 h3 {
+  color: white;
+  font-size: 72px;
+}
+#sec1 button {
+  background: #fed136;
+  border: none;
+  text-transform: uppercase;
+  padding: 16px 32px;
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: bold;
+  transition: 0.5s;
+}
+#sec1 button:hover {
+  background: #fec503;
+}
+
+#sec2 {
+  padding: 152px 0px;
+}
+#sec2 article i {
+  font-size: 64px;
+  color: white;
+  background: #fed136;
+  padding: 32px;
+  border-radius: 50%;
+}
+#sec2 article h2 {
+  text-transform: uppercase;
+  font-family: "Roboto Slab";
+  font-size: 24px;
+  color: black;
+}
+#sec2 article p {
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+
+#sec3 figure {
+  border: none;
+}
+#sec3 figure h2 {
+  font-family: "Roboto Slab";
+  font-weight: bold;
+  color: black;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+#sec3 figure h3 {
+  font-family: "Montserrat";
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */
