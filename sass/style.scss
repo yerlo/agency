@@ -14,7 +14,7 @@ $color1: #fed136;
     background-attachment: scroll;
     }
 
-    hgroup{
+    header{
     	h2{
     	 text-transform: uppercase;	
     	 font-family: $font3;
@@ -31,9 +31,12 @@ $color1: #fed136;
 
 #mainnav{
 	padding-top: 32px;
-	background: none;
+	background: rgba(14, 17, 22, 0.7);
 	border: none;
-	
+
+	div{
+		border: none;
+	}
 	
 	button{
 		font-size: 24px;
@@ -80,7 +83,7 @@ $color1: #fed136;
 	h2{
       color: white;
       font-size: 40px;
-      font-family: $font2;
+      font-family: $font3;
       font-weight: lighter;
 	}
 
@@ -105,7 +108,8 @@ $color1: #fed136;
 }
 
 #sec2{
-	padding: 152px 0px;
+	padding-top: 100px;
+	padding-bottom: 100px;
      article{
         i{
         	font-size: 64px;
@@ -131,6 +135,8 @@ $color1: #fed136;
 }
 
 #sec3{
+	padding-top: 100px;
+	padding-bottom: 100px;
 	figure{
 		border: none;
 		h2{
@@ -148,3 +154,93 @@ $color1: #fed136;
 		}
 	}
 }
+
+#sec4{
+	padding-top: 40px;
+	padding-bottom: 40px;
+  article{
+  	margin-top: 44px;
+  	margin-bottom: 44px;
+		 h6{
+	      font-size: 16px;
+	      font-family: $font3;
+	      font-weight: bold;
+	     }
+
+	     h2{
+          font-size: 24px;
+	      font-family: $font2;
+	      font-weight: bold;
+	     }
+
+	     p{
+	     	 line-height: 150%;
+	     	 font-size: 16px;
+	     	 letter-spacing: 1px;
+	     }
+    }
+}
+
+#sec5{
+	padding-top: 100px;
+	padding-bottom: 100px;
+
+	footer{
+		padding-top: 136px;
+	}
+
+	 main{
+
+      	p{
+		 padding-top: 80px;
+		} 
+
+		figcaption{
+
+		     h2{
+	           font-family: $font2;
+	           font-weight: bold;
+	           color: black;
+	           font-size: 24px;
+	           letter-spacing: 1px;
+	         }
+
+	         h3{
+	           font-family: $font3;
+	           font-size: 16px;
+	         }
+
+	        
+	        	
+	          li{
+	            a{
+	         	 color: black;
+	         	 font-size: 24px;
+	         	 transition: 0,4s;
+	         	  &:hover{
+	         	  	color: $color1;
+	         	  }
+	            }
+	          }
+	    }
+	        
+	}      
+}
+
+#sec7{
+	h2{
+		font-size: 16px;
+		font-family: $font2;
+	}
+	li{
+		a{
+			color: black;
+		}
+	}
+	nav{
+		a{
+			color: $color1;
+		}
+	}
+}   
+
